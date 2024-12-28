@@ -1,0 +1,49 @@
+{
+
+  "joi": {
+    "string": {
+      "base": "must be a valid string.",
+      "min": "must be at least {{#limit}} characters long.",
+      "max": "must be at most {{#limit}} characters long.",
+      "length": "must be exactly {{#limit}} characters long.",
+      "alphanum": "must contain only letters and numbers.",
+      "pattern": "must match the required pattern.",
+      "empty": "cannot be empty.",
+      "email": "Please enter a valid email address.",
+      "pattern.base": "must match the required pattern."
+    },
+    "any": {
+      "required": "is required.",
+      "only": "must be one of the allowed values."
+    },
+    "number": {
+      "base": "must be a valid number.",
+      "min": "must be greater than or equal to {{#limit}}.",
+      "max": "must be less than or equal to {{#limit}}."
+    },
+    "array": {
+      "base": "must be an array.",
+      "min": "must contain at least {{#limit}} items.",
+      "max": "must contain at most {{#limit}} items."
+    },
+    "boolean": {
+      "base": "must be a boolean value."
+    },
+    "date": {
+      "base": "must be a valid date.",
+      "format": "must match the format '{{#format}}'.",
+      "min": "must be on or after '{{#limit}}'.",
+      "max": "must be on or before '{{#limit}}'."
+    },
+    "object": {
+      "base": "must be an object.",
+      "unknown": "contains unknown fields.",
+      "missing": "must be provided."
+    }
+  },
+ "string": {
+    "email": "Email",
+    "title": "Title",
+    "content": "Content"
+  }
+}
