@@ -82,3 +82,10 @@ module.exports = {
 ## Contributing
 
 Feel free to open issues or pull requests if you have suggestions or improvements!
+
+## License
+
+This project is licensed under the [MIT License](LICENSE).  
+You are free to use, modify, and distribute this project, provided you include a copy of the license with your work.
+
+For more details, see the full license text in the [LICENSE](./LICENSE) file.
